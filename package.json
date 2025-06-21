@@ -51,6 +51,7 @@
     "@commitlint/config-conventional": "^19.2.2",
     "@release-it/conventional-changelog": "^10.0.0",
     "@types/functional-red-black-tree": "^1.0.6",
+    "buffer": "^6.0.3",
     "c8": "^10.1.2",
     "crypto-browserify": "^3.12.0",
     "gaussian": "^1.0.0",

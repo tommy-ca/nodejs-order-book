@@ -105,3 +105,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+# Ignore Rust build artifacts
+rust-core/index.node
+rust-core/target/

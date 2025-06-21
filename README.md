@@ -59,6 +59,9 @@ Ultra-fast Node.js Order Book written in TypeScript </br> for high-frequency tra
 
 <img src="https://user-images.githubusercontent.com/1219087/181792292-8619ee25-bf75-4871-a06c-bd6c82157f33.png" alt="nodejs-order-book-benchmark" title="nodejs-order-book benchmark" />
 
+### Rust Core
+Starting from version `7.0.0` the matching engine can also be built using a native Rust library. The Node.js API remains unchanged while intensive computations are delegated to Rust through N‑API bindings. This improves latency while keeping the package easy to install through npm.
+
 ## Installation
 
 Install with npm:
